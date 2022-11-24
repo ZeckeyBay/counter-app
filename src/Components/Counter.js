@@ -8,7 +8,7 @@ function Counter() {
 
   useEffect(()=>{
     let interval = setInterval(() =>{
-    console.log("interval");
+    //console.log("interval");
     setCount((prev) => prev + 1);
   },1000);
 
